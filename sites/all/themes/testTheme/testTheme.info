@@ -1,0 +1,23 @@
+name = testTheme
+description = "Teds första testtema för Drupal"
+core = 7.x
+engine = phptemplate
+
+; Det här är en kommentar, den börjar med ett semikolon!
+
+; files[]
+
+stylesheets[all][] = css/style.css
+scripts[] = js/testTheme.js
+
+regions[header] = Header
+regions[messages] = Messages
+regions[content] = Content
+regions[sidebar] = Sidebar
+regions[footer] = Footer
+
+features[] = logo
+features[] = name
+features[] = favicon
+
+; settings[my_custom_setting] = My custom setting for awesomeness
